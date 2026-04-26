@@ -62,7 +62,7 @@ FOR EACH ROW
 BEGIN
     UPDATE wishlists SET updated_at = datetime('now') WHERE id = OLD.id;
 END;
-----------------------------------------------------------
+------------------------------------------------------
 -- Indexes
 -- ------------------------------------------------------------
 CREATE INDEX IF NOT EXISTS idx_wishlist_items_wishlist
