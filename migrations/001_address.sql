@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS addresses (
   full_name TEXT NOT NULL,
   phone TEXT NOT NULL,
   email TEXT,
-  address_line1 TEXT NOT NULL,
+  address_line1 INTEGER NOT NULL,
   address_line2 TEXT,
   city TEXT NOT NULL,
   state TEXT NOT NULL,
