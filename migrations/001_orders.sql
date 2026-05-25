@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS orders (
   -- Shipping Information
   shipping_name TEXT NOT NULL,
   shipping_phone TEXT NOT NULL,
-  shipping_email TEXT,
+  shipping_email INTEGER,
   shipping_address TEXT NOT NULL,
   shipping_city TEXT NOT NULL,
   shipping_state TEXT NOT NULL,
