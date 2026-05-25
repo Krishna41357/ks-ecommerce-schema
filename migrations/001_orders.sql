@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS orders (
   order_number TEXT UNIQUE NOT NULL,
   
   -- Amounts
-  subtotal REAL NOT NULL,
+  subtotal INTEGER NOT NULL,
   discount_amount REAL DEFAULT 0,
   tax_amount REAL NOT NULL,
   shipping_amount REAL NOT NULL,
