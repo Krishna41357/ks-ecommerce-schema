@@ -12,7 +12,6 @@
     cart_id INTEGER NOT NULL,
     product_id TEXT NOT NULL,
     product_name TEXT NOT NULL,
-    product_slug TEXT NOT NULL,
     product_image TEXT,
     sku TEXT NOT NULL,
     quantity INTEGER NOT NULL DEFAULT 1,
