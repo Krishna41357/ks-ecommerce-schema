@@ -34,8 +34,7 @@ CREATE TABLE IF NOT EXISTS orders (
   shipping_landmark TEXT,
   
   -- Tracking
-  tracking_number TEXT,
-  courier_partner TEXT,
+
   
   -- Additional
   notes TEXT,
