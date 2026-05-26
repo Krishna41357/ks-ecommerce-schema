@@ -9,7 +9,7 @@ DROP TABLE IF EXISTS orders;
 CREATE TABLE IF NOT EXISTS orders (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   user_id INTEGER NOT NULL,
-  order_number TEXT UNIQUE NOT NULL,
+
   
   -- Amounts
   subtotal REAL NOT NULL,
