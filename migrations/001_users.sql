@@ -7,8 +7,7 @@ CREATE TABLE IF NOT EXISTS users (
   -- Primary Key
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   
-  -- Basic Information
-  name TEXT,
+
   email TEXT UNIQUE,
   phone TEXT UNIQUE NOT NULL,
   password_hash TEXT,
@@ -24,7 +23,7 @@ CREATE TABLE IF NOT EXISTS users (
   last_otp_sent TEXT,            -- last OTP sent timestamp
   
   -- Session Security
-  session_id TEXT,               -- secure session identifier
+               -- secure session identifier
   browser_fingerprint TEXT,      -- browser fingerprint for security
   
   -- Push Notifications
