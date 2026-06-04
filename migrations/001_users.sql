@@ -5,8 +5,6 @@
 
 CREATE TABLE IF NOT EXISTS users (
   -- Primary Key
-  id INTEGER PRIMARY KEY AUTOINCREMENT,
-  
   -- Basic Information
   name TEXT,
   email TEXT UNIQUE,
