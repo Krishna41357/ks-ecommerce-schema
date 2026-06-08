@@ -11,4 +11,4 @@ CREATE TABLE IF NOT EXISTS cart (
 SELECT u.id, u.email, u.name, c.product_id, c.quantity
 FROM cart c
 JOIN users u ON c.user_id = u.id
-WHERE u.session_id IS NOT NULL;
+WHERE u.session_id IS NOT NULL; 
