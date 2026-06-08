@@ -20,7 +20,7 @@ CREATE TABLE IF NOT EXISTS users (
   -- OTP Authentication
   otp TEXT,                      -- hashed OTP for security
   otp_expires_at TEXT,           -- OTP expiry timestamp (ISO 8601)
-  otp_attempts INTEGER DEFAULT 0,
+  otp_attempts INTEGER NOT NULL,
   last_otp_sent TEXT,            -- last OTP sent timestamp
   
   -- Session Security
