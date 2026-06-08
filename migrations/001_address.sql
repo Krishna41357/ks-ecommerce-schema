@@ -5,7 +5,7 @@ DROP TABLE IF EXISTS addresses;
 -- Create addresses table
 CREATE TABLE IF NOT EXISTS addresses (
   id INTEGER PRIMARY KEY AUTOINCREMENT,
-  user_id INTEGER NOT NULL,
+  user_id INTEGER NOT NULL, 
   label TEXT,
   full_name TEXT NOT NULL,
   phone TEXT NOT NULL,
