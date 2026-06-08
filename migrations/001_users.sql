@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS orders (
     user_id INTEGER NOT NULL,
     address_id INTEGER,
     total_amount DECIMAL(10,2) NOT NULL DEFAULT 0.00,
-    status TEXT NOT NULL DEFAULT 'pending',
+    status TEXT NOT NULL DEFAULT 'pending', 
     payment_status TEXT DEFAULT 'unpaid',
     created_at TEXT DEFAULT CURRENT_TIMESTAMP,
     updated_at TEXT DEFAULT CURRENT_TIMESTAMP,
