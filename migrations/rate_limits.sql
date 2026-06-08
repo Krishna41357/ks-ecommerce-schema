@@ -7,3 +7,4 @@ CREATE TABLE IF NOT EXISTS rate_limits (
     blocked_until TEXT,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+ 
