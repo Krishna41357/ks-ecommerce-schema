@@ -6,3 +6,4 @@ CREATE TABLE IF NOT EXISTS media (
     uploaded_at TEXT DEFAULT CURRENT_TIMESTAMP,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
+ 
