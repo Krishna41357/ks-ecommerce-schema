@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS users (
   -- Basic Information
   name TEXT,
   email TEXT UNIQUE,
-  phone TEXT UNIQUE NOT NULL,
+  phone_number TEXT UNIQUE NOT NULL,
   password_hash TEXT,
   
   -- Verification Status
