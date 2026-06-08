@@ -33,7 +33,7 @@ CREATE TABLE IF NOT EXISTS users (
   push_endpoint TEXT,            -- Push notification endpoint
   
   -- User Tracking
-  is_new_user INTEGER DEFAULT 1,
+  is_new_user INTEGER DEFAULT 0,
   first_login_at TEXT,           -- first successful login timestamp
   last_login_at TEXT,            -- most recent login timestamp
   
