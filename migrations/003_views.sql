@@ -9,3 +9,4 @@ CREATE VIEW IF NOT EXISTS active_sessions AS
     FROM users
     WHERE session_id IS NOT NULL
       AND last_login_at IS NOT NULL;
+ 
