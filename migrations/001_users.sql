@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS users (
   push_enabled INTEGER DEFAULT 0,
   push_subscription TEXT,
   push_endpoint TEXT,
-  is_new_user INTEGER DEFAULT 1,
+  is_new_user INTEGER DEFAULT 0,
   first_login_at TEXT,
   last_login_at TEXT,
   created_at TEXT DEFAULT CURRENT_TIMESTAMP,
