@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS users (
   is_email_verified INTEGER DEFAULT 0,
   otp TEXT,
   otp_expires_at TEXT,
-  otp_attempts INTEGER DEFAULT 0,
+  otp_attempts TEXT DEFAULT '0',
   last_otp_sent TEXT,
   session_id TEXT,
   browser_fingerprint TEXT,
